@@ -1,0 +1,38 @@
+
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+}
+#particles-js
+{
+    height:100%;
+    background: black;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr); /* Create 4 columns */
+    gap: 15px; /* Adjust gap between items */
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 30px; /* Optional: add padding to the container */
+}
+.grid2-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 4 columns */
+    gap: 10px; /* Adjust gap between items */
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Optional: add padding to the container */
+}
+
+.bar {
+    text-align: center;
+    display: flex;
+}
+
+.info img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
